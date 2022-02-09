@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__item {
+    list-style: none;
+}
+
+.header__menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.devis__titre {
+    margin-left: 50%;
+    background-color: rgb(0, 162, 255);
+    color: white;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.devis__bandeau {
+    background-image: url("photo-bandeau.jpg");
+    padding: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devis__bandeau_titre {
+    color: white;
+    text-align: center;
+}
+
+.devis__input {
+    width: 100px;
+}
+
+.devis__bouton {
+    width: 100px;
+    background-color: orangered;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
